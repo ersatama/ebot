@@ -1,0 +1,5 @@
+<div class="content-scheme-item-node-line" v-show="answer.connect.active" :style=" { , width: answer.connect.width + 'px', top: answer.connect.top + 'px', left: answer.connect.left + 'px' }" :ref="'start-'+index" @mousedown.stop :class="answer.connect.class">
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
